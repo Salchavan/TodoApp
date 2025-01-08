@@ -1,0 +1,44 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 0 20px #a1a5d8;
+    margin-bottom: 20px;
+}
+button {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+button:hover {
+    opacity: 0.8;
+}
+button:active {
+    opacity: 0.6;
+}
+
+.check-button {
+    background-color: #83ff83;
+}
+.uncheck-button {
+    background-color: #ff8383;
+    margin-left: 10px;
+}
+.delete-button {
+    background-color: #9b5b5b;
+}
+i{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.--icon-completed{
+    background-color: #bebebe;
+}
+.--p-completed{
+    text-decoration: line-through;
+    color: #a1a5d8;
+}
