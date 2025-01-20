@@ -6,6 +6,8 @@ import { CreateTodoButton } from '../CreateTodoButton/index.js';
 import { TodoSearch } from '../TodoSearch/index.js';
 import { ChangeThemeButton } from '../ChangeThemeButton/index.js';
 
+// Componente que contiene la interfaz de la aplicación
+
 function AppUI({
   darkTheme,          // Estado del tema oscuro
   toggleTheme,        // Función para alternar el tema oscuro
